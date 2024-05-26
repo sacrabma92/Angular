@@ -4,7 +4,10 @@ export class Person{
     // public name: string;
     // private address: string;
 
-    constructor( public name: string, private address: string = 'No Address'){
+    constructor( 
+        public name: string, 
+        private address: string = 'No Address'
+    ){
         // this.name = name
         // this.address = address;
     }

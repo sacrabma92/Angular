@@ -14,4 +14,4 @@ console.log({
 
 
 
-export {}
+export {};
