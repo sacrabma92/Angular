@@ -7,13 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public title : string = 'MI primera app en Angular';
-  public counter : number = 10;
 
-  public increaseBy(value: number) : void {
-    this.counter += value;
-  }
-
-  public resetCounter(){
-    this.counter = 10;
-  }
 }
