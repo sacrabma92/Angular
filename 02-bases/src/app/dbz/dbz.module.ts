@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
+import { DbzComponent } from './pages/main-page.component';
 
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
+  declarations: [
+    DbzComponent
+  ],
+  exports: [
+    DbzComponent
   ]
 })
 export class DbzModule { }
+// 
