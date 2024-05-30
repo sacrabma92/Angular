@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <h3>Hola mi nombre es {{ nombre }}</h3>
+    <h3>La suma de 10 + 5 = {{ getSuma(10 , 5) }}</h3>
+    <br>
+    <!-- PropertyBinding -->
+    <input type="text" class="form-control" [placeholder]="textoPlaceHolder" [disabled]="deshabilitado">
+    <br>
+  </div>
+  <!-- Event Binding -->
+  <br>
+  {{ texto }}
+  <button (click)="cambiarTexto()" class="btn btn-primary">Click Me</button>
+  <!-- PropertyBinding -->
+  <img [src]="imgSrc" alt="Img" width="400px" height="400px">
+
+  <!-- Two Way Data Binding -->
+  <div>
+    <input type="text" class="form-control" placeholder="Escribe algo aquí" [(ngModel)]="text2">
+    <br>
+    {{ text2 }}
+  </div>
+</div>
